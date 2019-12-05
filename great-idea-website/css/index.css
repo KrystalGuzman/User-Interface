@@ -18,7 +18,7 @@ menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
 	padding: 0;
-	border: 0;
+	/* border: 0; */
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
@@ -64,3 +64,83 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+* {
+	max-width:100%;
+	border: 1px solid gray;
+}
+/* Header */
+nav a {
+	display:inline-block;
+	margin: 0 20px;
+	color: lightgray;
+	text-decoration: none;
+}
+.links{
+	display: inline-block;
+	width: 70%
+}
+.logo{
+	display:inline-block;
+	width:20%;
+	padding:10px;
+}
+.title{
+	text-align: center;
+	display: inline-block;
+	margin: 20px
+}
+.titleheader {
+	vertical-align: center;
+	margin:20px 0px 0px 50px;
+}
+.titleimage {
+	width: 65%;
+}
+.imagetitle{
+	display:inline-block;
+	vertical-align: right;
+	margin: 10px 0px 0px 200px;
+}
+.title h1 {
+	line-height:50px;
+	font-size:50px;
+}
+.button{
+	border: 1px solid black;
+	padding: 5px 20px;
+	text-decoration: none;
+	color: black;
+}
+/* Body */
+.features {
+	display:inline-block;
+	width:40%;
+	margin-left:auto;
+}
+.about {
+	display:inline-block;
+	width:40%;
+	margin-right: auto;
+}
+.middle-img{
+	display:block;
+	width: 90%;
+
+}
+.services{
+	display:inline-block;
+	width:22%;
+}
+.product{
+	display:inline-block;
+	width:22%;
+}
+.vision{
+	display:inline-block;
+	width:22%;
+}
+h6{
+	text-align:center;
+}
+.

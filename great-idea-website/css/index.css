@@ -18,7 +18,7 @@ menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
 	padding: 0;
-	/* border: 0; */
+	border: 0;
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
@@ -72,7 +72,7 @@ h1, h2, h3, h4, h5 {
 /* Header */
 nav a {
 	display:inline-block;
-	margin: 0 20px;
+	margin: 0 40px;
 	color: lightgray;
 	text-decoration: none;
 }
@@ -100,7 +100,7 @@ nav a {
 .imagetitle{
 	display:inline-block;
 	vertical-align: right;
-	margin: 10px 0px 0px 200px;
+	margin: 10px 0px 0px 220px;
 }
 .title h1 {
 	line-height:50px;
